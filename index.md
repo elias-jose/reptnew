@@ -1,37 +1,310 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
 
-You can use the [editor on GitHub](https://github.com/elias-jose/reptnew/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
+<head>
+		<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+	 <meta name="viewport"content="width=device-width, initial-scale=1.0">
+	 <meta name="Author" content="Elias José" />
+		<title>Matemática/Noções lógica </title>
+		<link rel="stylesheet" type="text/css" href="tf.css">
+<style>
+   * {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar {
+         position: fixed;
+         top: 0px; /* sticks the side nav to the top */
+         left: 0px; /* sticks the side nav to the left side */
+         width: 100%;
+      }
+      .content {
+         margin-top: 50px;
+      }
+      .content > div {
+         padding: 15px;
+      }
+      .nav-bar a {
+         text-decoration: none;
+         color: black;
+         display: block;
+         height: 50px; /* sets fixed height */
+         line-height: 50px; /* vertically centers the text */
+      }
+      .nav-bar > ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+         background: #D82828;
+      }
+      .nav-bar > ul > li > a:hover {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar .active {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar li {
+         float: left;
+         width: 25%; /* 100% / 4 (number of li elements) = 25% */
+         text-align: center;
+         border-right: 1px groove #333;
+          /* for the borders */
+      }
+      .nav-bar li:last-child {
+         border: none;
+      }
+		.desig{
+		   padding: 1px;
+		   display: block;
+		   font-size: 10px;
+		   color: #ddd;
+		}
+		#desig{
+		   border: 1px hidden #000;
+		   padding: 1px;
+		   background-color: #000;
+		   display: block;
+		}
+		.image{
+		   border-radius: 50%;
+		   border: 2px solid black;
+		}
+		#text{
+		   padding-left: 20px;
+		   padding-right: 20px;
+		}
+		#return{
+		   text-decoration: none;
+		}
+		#return ul{
+		   list-style-type: none;
+		}
+		#return ul li a{
+		   text-decoration: none;
+		}
+		.tg{
+		   padding-top: 50px;
+		   font-family: Times New Roman; 
+		}
+		.th{
+		 border: 2px solid #ddd;
+		 font-weigth: bold;
+		 font-family: 'Arial';
+		}
+		bold{
+		   color: red;
+		}
+   .end{
+      border: none;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      heigth: 100px;
+      width: 50px;
+   }
+      footer {
+         color: #fff;
+         background: #333;
+         position: relative; /* required to position the copyright at the bottom */
+         font-size: 80%;
+      }
+      .footer-copyright {
+         width: 100%;
+         height: 40px;
+         background: #111;
+         /* positions the copyright at the bottom of the footer */
+         padding: 10px;
+         position: absolute;
+         bottom: 0px;
+         left: 0px;
+      }
+      .footer-body {
+         margin-bottom: 40px;
+         padding: 50px;
+      }
+      .footer-body > div:first-child {
+         font-size: 150%;
+      }
+      .footer-body ul {
+         list-style-type: none;
+         margin: 0px;
+         padding: 0px;
+         text-align: center;
+      }
+      .footer-body li > a {
+         word-spacing: 10px;
+         color: white;
+         text-decoration: none;
+         margin-bottom: 7px;
+      }
+		
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</style>
+</head>
+<body>
+<header id="header">
+           <!--Início -->
+  <nav class="nav-bar"> 
+    <ul>
+      <li class=".active"><a href="https://m.facebook.com/mauro.delciodecastro?" target="_blank">Facebook</a></li>
+      <li><a href="https://www.Instagram.com/" target="_blank">Instagram</a></li>
+      <li><a href="https://www.facebook.com/108761530896039/posts/pfbid02nHv5hSq4MtjLyiNyPkqW9fiAtkPEqadE5i3hTuTtnpedkNUUerZab2nyUezFhqenl/?app=fbl" target="_blank">Saber +</a></li>
+     <li><a href="https://www.todamateria.com.br/leis-de-kirchhoff/" target="_blank"> Acividades</a></li>
+    </ul>
+  </nav>
+ </header>
+  <div style="margin: 80px; border-style: hidden;">
+  </div>
+       <!--Apresentações-->
+  <nav id="tg"> 
+  <header>
+  	 <h1>
+  			Matemática	
+  	 </h1>
+  	 <img src="2.jpg" height="50px" width="50px" class="image" />
+  	 <p class="desig">Professor: Mauro de Castro</p>
+  	 <div id="desig">
+  	 </div>
+  	 <h4>
+	  Noções de lógica
+  	 </h4>
+      	 <!-- Temas do site-->
+  	 <ol>
+  	   <li> Proposições </li>
+  	   <li> Expressões com variáveis</li>
+	     <li> Expressões designatórias</li>
+  	 </ol>
+  	 </header>
+  	</nav>
+  	<nav id="text">
+   	<p>
+  	 Quando nos referimos a um objeto ou a um ser humano temos a necessidade de lhe dar um nome. Assim falamos que cadera, mesa, quadro, números, etc. Ao nome de um ente querido ou ser humano chama-se designação.
+   	</p>
+   	<h4> Proposições</h4>
+   	<!-- Desenvolvimento dos temas -->
+   	<div>
+    	<p>
+  	   Quando se afirma que Luanda é a capital de Angola, estamos perante a uma proposição inequivocamente verdadeira. No entanto existem afirmarções que não vamos considerar em matemática, dado que a sua veracidade é indiscutível. Por exemplo: 100 é um número grande. Sobre esta afirmarção dependendo do contexto em que é considerada, pode ser entendida por uns como verdadeiro ou falsa. 
+    	</p>
+    </div>
+         <!--Exemplos-->
+    <strong>
+      São verdadeiras as Proposições:
+    </strong>
+    <div class="th">
+     <p>
+       m.d.c(12;8)= 4
+     </p>
+     <p> 
+       7 - 4<9 <br> 
+     </p>
+     <p>
+       2 + 5 =5<br> 
+     </p>
+     <p>
+       5 + 8>6<br>
+     </p>
+    </div>
+    <div>
+      <p>
+As proposições que vamos aceitar são aquelas que ou são verdadeiras ou falsas(princípio do terceiro excluído) ou dizendo de outro modo, uma proposição não pode ser verdadeira e falsa ao mesmo tempo(princípio da não contradição).
+      </p>
+    </div>
+    <div class="card-action" id="return">
+         <!-- Subtemas-->
+     <ul>
+      <li><a href="#header"> Return</a></li>
+   </div>
+    <div>
+   <h4> - Expressões com variáveis.</h5>
+    <h4>- Expressões designatórias.</h5>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elias-jose/reptnew/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+     <p>Quando uma expressão, com uma ou mais variáveis, para cada concretização das mesmas, se transforma numa designação estamos perante uma expressão designatória. Por exemplo, se na expressão x+4 vamos substituir a variável x por 3, estamos perante a uma designação do número 7.
+     </p>
+     <label>
+Ex: x+4= 3+4=>7<br> 
+Se x=3;
+     </label>
+     <p>
+Mas se a gente substituir por -10 estamos perante a uma designação do número-6    </p>
+     <label>
+Ex: x+4= -10 + 4= -6<br>
+Se x=-10;
+     </label>
+   </div>
+   <div>
+     <h4> Expressões proporcionais ou condições.
+     </h4>
+     <p>
+Quando uma expressão com uma ou mais variáveis, para cada concretização das mesmas se transforma numa proposição ou verdadeira ou falsa dizemos que essa expressão é uma condição.
+      </p>
+      <p><strong>
+Referência a lógica bivalente.
+      </strong></p>
+      <p>
+Quando nos referimos a uma proposição, vemos a ela esta associada a um juízo de valores que nos leva a concluir que ou é verdadeira ou é falsa. No estudo desta unidade de lógica bivalente temos, portanto que considerar dois valores lógicos, verdadeiro<bold>( V ou 1)</bold>ou falso<bold>(F ou 0).</bold> </p>
+    </div>
+   <div>
+    <p style="font-family: Sans-serif; text-align: center; font-weight: bold;">Exercícios resolvidos:</p>
+    <p>
+Entre as várias expressões, identifique as proposições verdadeiras:
+     </p>
+     </div>
+     <div style="padding: 5px;font-family: Verdana; font-size: 15px; color: rgb(111, 104, 104)">
+a) 2+3=3 =><span style="color:red">F</span>
+<br>
+b) 5-9<6 =><span style="color:green"> V</span>
+<br>
+c) m.m.c(6, 21) =42 =><span style="color:green">V</span>
+<br>
+d) 5-16 =11=> <span style="color: red">F</span>
+<br>
+e) m.d.c(6, 21) =2 =><span style="color: red">F</span>
+<br>
+f) -7+2(-5+3) <7 =><span style="color: green">V</span>
+<br>
+  </div>
+  <div>
+    <p>
+    <h4><span style="font-weigth: bold">*</span>Classificações de condições num dado universo.</h4>
+    </p>
+    <p>
+A classificação de uma condição depende do universo (conjunto com que se esta a trabalhar).
+Uma condição pode não ter solução num dado universo. Assim podemos dizer que é impossível nesse universo, e num outro conjunto pode ter soluções, assim podemos dizer que é possível nesse universo.
+     </p>
+     <p>
+As condições classificam-se em: possíveis e impossíveis.
+As condições possíveis classificam-se em universais e não-universais.
+    </p>
+  </div>
+  </nav>
+  <!-- Área final-->
+  <div class="end"></div>
+   <footer>
+      <div class="footer-body">
+         <div> GitHub. </div>
+         <div>
+            <p> Sites alternativos, que estão disponíveis para mais informações. </p>
+            <ul>
+              <li><a href="https://www.todamateria.com.br/biologia/"> Biologia </a></li>
+     <li> <a href="https://www.todamateria.com.br/fisica/">Física </a></li>
+      <li><a href="https://www.todamateria.com.br/matematica/">Matemática</a></li>
+      <li> <a href="https://www.todamateria.com.br/lingua-portuguesa/">Língua Portuguesa </a></li>
+       <li><a href="https://www.todamateria.com.br/filosofia/">Filosofia</a></li>
+       <li><a href="https://www.todamateria.com.br/ingles/">Inglês</a></li+
+      <li><a href="https://www.todamateria.com.br/materias/">Todas matérias</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer-copyright">
+         © Open source. 
+      </div>
+   </footer>
+</body>
+</html>
